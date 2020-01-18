@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.calculationtest.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_testFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.calculationtest.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/action_testFragment_to_loseFragment"
+            app:destination="@id/loseFragment" />
+        <action
+            android:id="@+id/action_testFragment_to_winFragment"
+            app:destination="@id/winFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loseFragment"
+        android:name="com.example.calculationtest.LoseFragment"
+        android:label="fragment_lose"
+        tools:layout="@layout/fragment_lose" >
+        <action
+            android:id="@+id/action_loseFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.example.calculationtest.WinFragment"
+        android:label="fragment_win"
+        tools:layout="@layout/fragment_win" >
+        <action
+            android:id="@+id/action_winFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

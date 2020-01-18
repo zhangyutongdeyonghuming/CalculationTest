@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CalculationTest</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="highest_score" translatable="false">最高得分:%d</string>
+    <string name="operator" translatable="false">+</string>
+    <string name="result" translatable="false">\?</string>
+    <string name="button0" translatable="false">0</string>
+    <string name="button1" translatable="false">1</string>
+    <string name="button2" translatable="false">2</string>
+    <string name="button3" translatable="false">3</string>
+    <string name="button4" translatable="false">4</string>
+    <string name="button5" translatable="false">5</string>
+    <string name="button6" translatable="false">6</string>
+    <string name="button7" translatable="false">7</string>
+    <string name="button8" translatable="false">8</string>
+    <string name="button9" translatable="false">9</string>
+    <string name="buttonClear" translatable="false">清除</string>
+    <string name="buttonSubmit" translatable="false">=</string>
+    <string name="score" translatable="false">Your Score:%d</string>
+    <string name="tip_input" translatable="false">请输入：</string>
+    <string name="firstNum" translatable="false">1</string>
+    <string name="secondNum" translatable="false">2</string>
+    <string name="equals" translatable="false">=</string>
+    <string name="win_img_description" translatable="false">win</string>
+    <string name="lose_img_description" translatable="false">lose</string>
+    <string name="index">返回首页</string>
+    <string name="tip_lose">你失败了</string>
+    <string name="lose_score">你的分数为：%d</string>
+    <string name="tip_win">你赢了</string>
+    <string name="win_score">你创造了新纪录：%d</string>
+    <string name="right_tip">回答正确，请继续！</string>
+    <string name="is_quit">你确定退出吗</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+
+</resources>
